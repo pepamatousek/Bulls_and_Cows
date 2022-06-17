@@ -245,7 +245,7 @@ def main_game(players_name: str, separator: str, command: str):
     player_input_screen(players_name, separator)
 
     secret_number = generator_secret_number(4)
-    print(secret_number)
+    # print(secret_number)
 
     # spuštění časomíry
     start = datetime.datetime.now()
